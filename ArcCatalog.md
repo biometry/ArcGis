@@ -12,7 +12,7 @@ The firts thing to do when we start a new proyect is to organise well our data. 
 
 By clicking on <i>File->Connect To Folder</i> we can select the folder(s) that will appear on our <i>Catalog Tree</i> and work on them.
 
-[image ArcCatalog-Connecting directory.png]
+![ArcCatalog Connection](https://raw.githubusercontent.com/AndreaJO/ArcGis/master/Images/ArCatalog/ArcCatalog-Connecting%20directory.png)
 
 ## Data visualization
 
@@ -26,4 +26,12 @@ There are 3 options given to see the information related to the file:
 
   -Description: metadata about the file. It is possible to be edited (e.g. description, thumbnail, scale)
 
-[image data Visualization.jpg]
+![Data visualization](https://raw.githubusercontent.com/AndreaJO/ArcGis/master/Images/ArCatalog/data%20Visualization.JPG)
+
+## Data editing
+
+Right click on the file allows us to manage them.
+
+![ArcCatalog Editing](https://raw.githubusercontent.com/AndreaJO/ArcGis/master/Images/ArCatalog/Editing_Files.png)
+
+Anyhow, we can also do the editing work directly on ArcMap
