@@ -12,7 +12,7 @@ The firts thing to do when we start a new proyect is to organise well our data. 
 
 By clicking on <i>File->Connect To Folder</i> we can select the folder(s) that will appear on our <i>Catalog Tree</i> and work on them.
 
-![ArcCatalog Connection](https://raw.githubusercontent.com/AndreaJO/ArcGis/master/Images/ArCatalog/ArcCatalog-Connecting%20directory.png)
+![ArcCatalog Connection](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/ArCatalog/ArcCatalog-Connecting%20directory.png)
 
 ## Data visualization
 
@@ -26,12 +26,25 @@ There are 3 options given to see the information related to the file:
 
   -Description: metadata about the file. It is possible to be edited (e.g. description, thumbnail, scale)
 
-![Data visualization](https://raw.githubusercontent.com/AndreaJO/ArcGis/master/Images/ArCatalog/data%20Visualization.JPG)
+![Data visualization](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/ArCatalog/data%20Visualization.JPG)
+
+## Data creation
+
+On <i>File->New-></i> we can create a new file (shapefile, layer, geodatabase, etc) that we can export later on to our project
+
+![Data creation](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/ArCatalog/creating%20file.png)
+
+In the following example we can see how to create a newshapefile. We just need to give it a name, a shapefile type (point, polyline, etc) and to define the coordinate system to make sure that is the same than our project.
+In case we forget to define the coordinate system, it will be possible to define it on the shapefile already created as we will see later.
+
+![Shapefile creation](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/ArCatalog/shapefile%20creation.JPG)
+
+To add the new file to our proyect we can just drag it in 
 
 ## Data editing
 
 Right click on the file allows us to manage them.
 
-![ArcCatalog Editing](https://raw.githubusercontent.com/AndreaJO/ArcGis/master/Images/ArCatalog/Editing_Files.png)
+![ArcCatalog Editing](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/ArCatalog/Editing_Files.png)
 
 Anyhow, we can also do the editing work directly on ArcMap
