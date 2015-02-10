@@ -1,5 +1,6 @@
 Coordinate Systems in ArcGis are always a headache and usually the reason of some errors or why our results do not look as they should.
 Therefore it is very important to set up correctly our coordinate system and to make sure that all our data has the same coordinate system.
+We can check the coordinate system of a feature/dataset right clicking on it-> Properties-> Source-> Projection
 
 # Define a coordinate system
 
