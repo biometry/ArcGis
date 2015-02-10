@@ -1,8 +1,8 @@
 Coordinate Systems in ArcGis are always a headache and usually the reason of some errors or why our results do not look as they should.
 
-Therefore it is very important to set up correctly our coordinate system and to make sure that all our data has the same coordinate system.
+Therefore it is very important to set up correctly our coordinate system and to make sure that all our data has the <i>same</i> coordinate system.
 
-We can check the coordinate system of a feature/dataset right clicking on it-> Properties-> Source-> Projection
+We can check the coordinate system of a feature/dataset right clicking on it <b>-> Properties-> Source-> Projection</b>
 
 # Define a coordinate system
 
@@ -22,6 +22,6 @@ We just need to introduce the feature or dataset (1), the coordinate system that
 
 ![Projection](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Coordinate%20Systems/Project.JPG)
 
-Other option is to go to the <i>Layer Properties</i> and in the Coordinate Systems tab (1) select Transformations (2) and there we convert the current CS into the desired one (3).
+Other option is to go to the <i>Layer Properties</i> and in the <i>Coordinate Systems</i> tab (1) select <i>Transformations</i> (2) and there we convert the current CS into the desired one (3).
 
 ![Layer Properties Transformation](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Coordinate%20Systems/Data%20Frame%20Transformation.JPG)
