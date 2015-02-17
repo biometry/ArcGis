@@ -25,3 +25,5 @@ We just need to introduce the feature or dataset (1), the coordinate system that
 Other option is to go to the <i>Layer Properties</i> and in the <i>Coordinate Systems</i> tab (1) select <i>Transformations</i> (2) and there we convert the current CS into the desired one (3).
 
 ![Layer Properties Transformation](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Coordinate%20Systems/Data%20Frame%20Transformation.JPG)
+
+After the whole process it might be that the data looks fine in our map but the coordinates did not changewhile looking at the atribute table. That can be easily solved by using the <b>Add XY coordinates</b> command.
