@@ -25,3 +25,5 @@ Some useful websites to download ArcGis data <i>free of charge</i>:
 *<b>Argentina</b>: http://www.ign.gob.ar/sig#descarga
 
 *<b>Ecuador</b>: http://www.geoportaligm.gob.ec/portal/index.php/descargas/cartografia-de-libre-acceso/
+
+http://savgis.org/ecuador.htm#DEM
