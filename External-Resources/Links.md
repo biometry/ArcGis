@@ -16,6 +16,8 @@ Some useful websites to download ArcGis data <i>free of charge</i>:
 
 *ASTER data: https://lpdaac.usgs.gov/data_access
 
+*Ndvi data http://glcf.umd.edu/data/ndvi/
+
 # By country
 
 *<b>Germany</b> SRTM Data from Germany: http://www.opendem.info/download_srtm.html
