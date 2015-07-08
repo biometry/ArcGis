@@ -18,6 +18,8 @@ Some useful websites to download ArcGis data <i>free of charge</i>:
 
 *Ndvi data http://glcf.umd.edu/data/ndvi/
 
+*Free Landsat imagery & other remote sensing data: http://earthexplorer.usgs.gov/
+
 # By country
 
 *<b>Germany</b> SRTM Data from Germany: http://www.opendem.info/download_srtm.html
