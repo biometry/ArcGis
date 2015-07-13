@@ -1,3 +1,5 @@
+# Grouping Values
+
 The command <b> Summary Statistics </b> allows us not only to perform the basic exploratory analysis (such as Mean, Min, Max, Standard Deviation, etc) but is also a useful tool when our aim is to group fields from our attribute table depending of another variable.
 
 We can find the command in Analysis <b>Tools->Statistics->Summary Statistics</b> or by typing <i>Summary Statistics</i> on the search bar
