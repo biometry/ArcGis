@@ -12,7 +12,7 @@ There are a couple of things to consider on the <i>Create Fishnet</i> command:
 *2 <b>Cell Size Width/Height</b> & <b>Number of Rows/Columns</b>: Here we can choose to set up how many rows and columns we want or how big the cells from the fishnet will be. It is important to, at least, filled 2 of these options.
 I, for example, wanted 13 rows and 19 columns, so I set up the cell sizes as 0, this way ArcGIS will calculate them automatically.
 
-*3 <b>We can create a label of points, so a point will appear in the middle of each cell. I did not select this option this time.
+*3 We can create a <b>label of points</b>, so a point will appear in the middle of each cell. I did not select this option this time.
 
 *4 The last part will be to set the fishnet as a polygon or as a polyline. I prefer polygon.
 
