@@ -1,4 +1,5 @@
-# Creating the Area Fishnet
+#Creating Fishnets out of Points
+## Creating the Area Fishnet
 
 The first step will be to create a Fishnet given a specific area.
 
@@ -17,7 +18,7 @@ I, for example, wanted 13 rows and 19 columns, so I set up the cell sizes as 0, 
 
 ![Create a Fishnet Command](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Create%20Fishnet%20Command.JPG)
 
-# Intersecting the Fishnet with the Points
+## Intersecting the Fishnet with the Points
 
 Our objective will be to show the amount of points, in this case, in each cell from the fishnet grid. For that, we will use the command <b>Analysis Tool->Overlay->Spatial Join</b>
 
@@ -33,4 +34,34 @@ Setting up the background color as trasparent will help us to have a better over
 ![Columns](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Columns.JPG)
 
 
+# Creating grids given the centroid
 
+##Creating a buffer
+
+The first step will be to create a buffer around the points we have (central points of each cell from our future grid).
+The tool can be found at <b>Analysis Tool -> Proximity -> Buffer</b>
+
+![Buffer](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Buffer.JPG)
+
+We set the points layer as Input feature and the half of the desired cell size value as <i>Distance Linear Unit</i>
+In this case the cell sizes that we need is 60x60 m, so we will set the distance value as 30 m.
+
+![Buffer Tool](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Buffer%20Tool.JPG)
+
+The result will be a set of <i>circles</i> around the points.
+
+![Buffer Result](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Buffer%20result.JPG)
+
+##Transforming the buffer into cells
+
+The tool appropiate for this can be found in <b>Data Management Tools > Features > Feature Envelope to Polygon</b>
+
+![Feature Envelope To Polygon](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Feature%20Envelope%20To%20Polygon%20Tool.JPG)
+
+The Input Feature will be the Buffer Layer. It is very important to keep selected the square for <i>Create multipart features</i>
+
+![Feature Envelope To Polygon Tool](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Feature%20Envelope%20To%20Polygon.JPG)
+
+Another advantage is that the Attribute Table will keep all the Values from both layers (points and buffers).
+
+![Feature Envelope To Polygon Result](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Fishnet/Feature%20Envelope%20To%20Polygon%20result.JPG)
