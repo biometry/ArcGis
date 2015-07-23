@@ -7,7 +7,7 @@ The first step will be to create a Fishnet given a specific area.
 
 There are a couple of things to consider on the <i>Create Fishnet</i> command:
 
-*1 <b>Template extent</b>: that will be the extension of our Fishnet, I selected the study area in this case <i>areas2<i/>. This way the Fishnet coordinates will be filled automatically.
+*1 <b>Template extent</b>: that will be the extension of our Fishnet, I selected the study area in this case <i>areas2</i>. This way the Fishnet coordinates will be filled automatically.
 
 *2 <b>Cell Size Width/Height</b> & <b>Number of Rows/Columns</b>: Here we can choose to set up how many rows and columns we want or how big the cells from the fishnet will be. It is important to, at least, filled 2 of these options.
 I, for example, wanted 13 rows and 19 columns, so I set up the cell sizes as 0, this way ArcGIS will calculate them automatically.
