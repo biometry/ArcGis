@@ -21,7 +21,7 @@ An error message will pop up when we select our variable. That is because we nee
 
 * <i>Case Field</i>: The field dependent on the Statistic field. The soil type, or <b>RST_SIEGEL</b> in our example.
 
-<i>Note</i> Another way to summarize the value would be on the attribute table. We just have to select the column we want to summarize and click on the command.
+<i>Note:</i> Another way to summarize the value would be on the attribute table. We just have to select the column we want to summarize and click on the command.
 
 
 Once the table with the new group values is created, we can create a graphic representation of it.
