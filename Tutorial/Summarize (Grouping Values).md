@@ -29,3 +29,14 @@ In <b>View->Graphs->Create Graph</b> we just have to select the type of graph we
 
 ![Graph Set Up](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Summarize/GraphsetUp.JPG)
 ![Graph](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Summarize/Graph.JPG)
+
+##Grouping values with different names
+
+The first step will be to create a new column where we will calculate the new names for the different groups we want to have.
+
+Once with have it, we will have to use <b>Select By Attributes</b> to select the items that will conform one of our groups. In our example, the first group would consist in all the elements from the column <i>BST_BEZ</i> that contain the letter <i>a</i> (that is, a3, a2, a5, a2*1, etc).
+The expression that we will write on the <b>Select By Attributes</b> window will be: <i>"BST_BEZ" LIKE 'a%'</i>
+LIKE would mean <i>contains</i> and the <i>%</i> symbol indicates that we do not care what is written after the a.
+
+![Select By Attribute](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Summarize/Graph.JPG)
+
