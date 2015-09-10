@@ -20,6 +20,8 @@ Some useful websites to download ArcGis data <i>free of charge</i>:
 
 *Free Landsat imagery & other remote sensing data: http://earthexplorer.usgs.gov/
 
+*NOAA's database, VIIRS Day Night Band http://www.class.ncdc.noaa.gov/saa/products/search?datatype_family=VIIRS
+
 # By country
 
 *<b>Germany</b> SRTM Data from Germany: http://www.opendem.info/download_srtm.html
