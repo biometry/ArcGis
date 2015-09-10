@@ -20,7 +20,7 @@ Some useful websites to download ArcGis data <i>free of charge</i>:
 
 *Free Landsat imagery & other remote sensing data: http://earthexplorer.usgs.gov/
 
-*NOAA's database, VIIRS Day Night Band http://www.class.ncdc.noaa.gov/saa/products/search?datatype_family=VIIRS
+*NOAA's database http://www.class.ncdc.noaa.gov/saa/products/search?datatype_family=VIIRS, and VIIRS Day Night Band http://ngdc.noaa.gov/eog/viirs/download_monthly.html 
 
 # By country
 
