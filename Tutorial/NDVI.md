@@ -1,3 +1,5 @@
+# Calculating the NDVI from Landsat images
+
 * Download the Landsat 8 images from http://earthexplorer.usgs.gov/
 
 * Load the Bands images in ArcGIS
