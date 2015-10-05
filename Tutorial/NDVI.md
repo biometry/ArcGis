@@ -6,7 +6,7 @@
 
 * We open the <b>Image Analysis window</b> from Windows-> Image Analysis and composite the Bands 2, 3, 4 and 5 (blue, green, red and near infrared)
 
-!Band configuration](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/NDVI/Bands%20config.PNG)
+![Composite bands](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/NDVI/Composite%20bands.PNG)
 
 * We will get as resoult a 3 band image, we can change the band order depending of what we want to explore.
 In this case we want to calculate the NDVI. The combination will be:
