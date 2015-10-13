@@ -1,4 +1,4 @@
-# ArcGis
+# ArcGIS
 Some basic info about ArcGis and its applications
 
 *[Useful links and external resources](https://github.com/biometry/ArcGis/tree/master/External-Resources)
