@@ -16,13 +16,19 @@ Some useful websites to download ArcGis data <i>free of charge</i>:
 
 *ASTER data: https://lpdaac.usgs.gov/data_access
 
-*Ndvi data http://glcf.umd.edu/data/ndvi/
+*Ndvi data http://glovis.usgs.gov/
 
 *Free Landsat imagery & other remote sensing data: http://earthexplorer.usgs.gov/
 
 *NOAA's database http://www.class.ncdc.noaa.gov/saa/products/search?datatype_family=VIIRS, and VIIRS Day Night Band http://ngdc.noaa.gov/eog/viirs/download_monthly.html 
 
+*GLobal Climate Data http://www.worldclim.org/
+
+*European Environment Agency catalogue (including Corine Land Cover) http://www.eea.europa.eu/data-and-maps
+
 # By country
+
+*<b>Worldwide</b> Statistic data from several countries: http://knoema.de/
 
 *<b>Germany</b> SRTM Data from Germany: http://www.opendem.info/download_srtm.html
 
@@ -33,3 +39,5 @@ Some useful websites to download ArcGis data <i>free of charge</i>:
 *<b>Ecuador</b>: http://www.geoportaligm.gob.ec/portal/index.php/descargas/cartografia-de-libre-acceso/
 
 http://savgis.org/ecuador.htm#DEM
+
+
