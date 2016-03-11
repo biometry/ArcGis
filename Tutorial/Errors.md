@@ -5,3 +5,9 @@ A layer can be damaged and therefore, ArcGIS will not allow us to select any par
 To fix it we will have to run a <b>Repair Geometry</b>
 
 ![Reapir Geometry](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/Error/Repair%20Geometry.PNG)
+
+
+#Error 001143
+
+Happened during <b> Raster Calculator </b>
+Solution: disable background processes in ArcGIS via the Geoprocessing Options dialog box.
