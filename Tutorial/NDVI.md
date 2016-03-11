@@ -44,3 +44,8 @@ In order to get the attribute table of the TIFF data you can construct attribute
 
 You can save this float point raster as 8-bit integer using "Copy Raster" tool or you can classify your raster by Spatial Analyst Tools > Reclass > Reclassify option (you can define up to 256 class), and then work with this reclassified "thematic" layer. 
 
+#NDVI from MODIS
+
+The NDVI files from MODIS have a sclae factor of 1/10000 (https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13q1)
+
+
