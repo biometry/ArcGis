@@ -27,7 +27,7 @@ The red areas represent the vegetation.
 * We create the NDVI layer in the <b>Image Analysis</b> window, but first  we have to set up the red and near infrared bands thus the definition of NDVI is the red band - the NIR band divided by the sum of both.
 We will do that in <b>Options</b> in the <b>Image Analysis</b> window.
 
-!Band configuration](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/NDVI/Bands%20config.PNG)
+![Band configuration](https://raw.githubusercontent.com/biometry/ArcGis/master/Images/NDVI/Bands%20config.PNG)
 
 As we said, the red band is the number 3 and the NIR the 4.
 
