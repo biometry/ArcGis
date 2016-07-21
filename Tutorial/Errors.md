@@ -11,3 +11,11 @@ To fix it we will have to run a <b>Repair Geometry</b>
 
 Happened during <b> Raster Calculator </b>
 Solution: disable background processes in ArcGIS via the Geoprocessing Options dialog box.
+
+#Error building a Raster Atributte Table
+
+If the raster is single band, then we have to convert the raster values into a integer.
+
+Say that we have a raster type float, and we determine that the data values are only necessary up to 4 decimal points, we can use the Raster Calculator to do:
+
+Int(raster * 10000)
